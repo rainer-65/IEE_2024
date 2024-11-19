@@ -4,8 +4,7 @@ import seaborn as sns
 
 from config import API_KEY
 
-# Simple weather forecast application with Python
-# For the IEE 2024 in Olten / Basel / Brugg
+# Simple weather forecast application with Python for the IEE 2024 in Olten / Basel / Brugg
 
 # Constants
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
