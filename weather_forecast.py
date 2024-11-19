@@ -4,6 +4,7 @@ import seaborn as sns
 
 from config import API_KEY
 
+# Simple weather forecast application with Python
 
 # Constants
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
