@@ -24,7 +24,7 @@ def text_nltk(text):
 text = input("Please enter a sentence or a word fragment: ")
 while text.lower() != "stop":
     if text == "":
-        print("Please enter a sentence or a word fragment: ")
+        pass
     else:
         text_blob(text)
         text_nltk(text)
