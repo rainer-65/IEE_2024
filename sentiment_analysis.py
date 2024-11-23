@@ -1,9 +1,8 @@
 # Small program to show sentiment analysis
-from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+nltk.download('vader_lexicon')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from textblob import TextBlob
-
-
-# nltk.download('vader_lexicon')
 
 
 # Option 1: Using TextBlob
